@@ -131,23 +131,13 @@ async function initApp() {
     initHoverAnimations()
   })
 
-  try {
-    const enrichedMovies = await enrichMoviesWithWikidata(mergedMovies)
+  archiveLoading?.remove()
+  quizLoading?.remove()
 
-    archive.items = enrichedMovies
-    archive.initialize()
-
-    quiz.setItems(enrichedMovies)
-  } catch (error) {
-    console.error('Achtergrondverrijking via backend mislukt:', error)
-  } finally {
-    archiveLoading?.remove()
-    quizLoading?.remove()
-
-    requestAnimationFrame(() => {
-      refreshScrollAnimations()
-    })
-  }
+  requestAnimationFrame(() => {
+    refreshScrollAnimations()
+  })
+    
 }
 
 initApp()
