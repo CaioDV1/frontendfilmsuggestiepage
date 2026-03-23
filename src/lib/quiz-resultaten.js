@@ -1,3 +1,7 @@
+/* dit bestand bevat alle functies die nodig zijn om de quiz resultaten te bepalen op basis van de antwoorden van de gebruiker in de quiz,
+zoals het filteren van de films op genre, periode en runtime, en het kiezen van de beste matches om aan de gebruiker te tonen, deze
+ functies worden gebruikt in de quiz component om de resultaten te berekenen en weer te geven */
+
 import {
   filterMoviesByPeriod,
   filterMoviesByQuizGenre,

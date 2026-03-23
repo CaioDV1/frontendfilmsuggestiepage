@@ -1,3 +1,7 @@
+/* dit is het component dat de film carousel weergeeft,
+hier worden de films als posters weergegeven in een oneindige scrollende carousel
+het is gemaakt met p5.js */
+
 import p5 from 'p5'
 
 class FilmCarousel extends HTMLElement {

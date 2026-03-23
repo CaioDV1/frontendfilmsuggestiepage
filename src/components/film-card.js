@@ -1,3 +1,8 @@
+/* dit is het component dat de filmkaart weergeeft, zowel in poster als detail modus
+in poster modus worden alleen de poster en titel weergegeven in detail modus worden alle
+ details van de film weergegeven
+het is een herimporteerbaar component dat op meerdere plekken in de app word gebruikt */
+
 import { animateLikeButton } from '../lib/animations.js'
 import { fetchWikidataFilmDetails } from '../lib/fetchWikidatafilmdetails.js'
 import { buildDetailData, hasEnoughDetailData } from '../lib/film-details-data.js'

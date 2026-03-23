@@ -1,3 +1,6 @@
+/* dit is het component dat de film comments weergeeft, hier kunnen gebruikers comments en sterren achterlaten bij een film
+de comments worden opgeslagen in de backend en gedeeld met andere gebruikers die de film bekijken via websockets */
+
 import {
   fetchCommentsByQid,
   getFilmQid,

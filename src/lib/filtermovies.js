@@ -1,3 +1,6 @@
+/* dit bestand bevat alle functies die nodig zijn om de films te filteren en sorteren op basis van de gebruikersvoorkeuren in de quiz en de zoekfunctie,
+zoals filteren op genre, periode, runtime en sorteren op titel of jaar, deze functies worden gebruikt in de quiz en de film lijst componenten */
+
 export const QUIZ_GENRE_MAP = {
   action: [
     'action film',

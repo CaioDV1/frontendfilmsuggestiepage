@@ -1,3 +1,8 @@
+/* de service worker van de front end, zorgt voor de 
+caching en PWA-gedrag zodat de dele vand e site sneller
+of offline kunnen werken */
+
+
 const CACHE_NAME = 'film-suggesties-v1'
 const urlsToCache = ['/', '/index.html']
 

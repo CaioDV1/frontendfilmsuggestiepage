@@ -1,3 +1,6 @@
+/* hier is de basis costum element geschreven voor herbruikbare knoppen in de app
+overal in de app krijgen ze dezelde stijl */
+
 class AppButton extends HTMLElement {
   static get observedAttributes() {
     return ['label', 'type', 'variant', 'disabled', 'aria-label']

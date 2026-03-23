@@ -1,3 +1,6 @@
+/* dit bestand bevat alle functies die nodig zijn om te communiceren met de backend API, 
+zoals GET en POST verzoeken, en error handling */
+
 const API_BASE_URL = 'https://backendfilmsuggestiepage.onrender.com/api'
 function buildApiUrl(path) {
   return `${API_BASE_URL}${path}`

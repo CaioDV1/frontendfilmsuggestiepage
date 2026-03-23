@@ -1,3 +1,7 @@
+/* dit is het component dat de film archief pagina weergeeft,
+hier kunnen gebruikers zoeken, filteren en sorteren door alle films die in het archief staan
+het maakt gebruik van het film-browser component om de gefilterde films weer te geven */
+
 import { applyMovieFilters, getAvailableGenres } from '../lib/filtermovies.js'
 
 class FilmArchive extends HTMLElement {

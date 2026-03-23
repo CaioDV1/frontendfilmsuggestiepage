@@ -1,3 +1,7 @@
+/* dit bestand bevat de functie die de film zoek functionaliteit initialiseert, zoals het toevoegen van event listeners aan de zoekinput 
+en de zoekknop, het uitvoeren van de zoekopdracht met een debounce, en het weergeven van de zoekresultaten of foutmeldingen, deze functie 
+wordt aangeroepen in de main.js om de film zoek functionaliteit te activeren */
+
 import movies from '../data/films-basic.json'
 import { addMovieToArchive, fetchArchiveMovies, searchMovies} from './archive-api.js'
 import { refreshScrollAnimations } from './animations.js'

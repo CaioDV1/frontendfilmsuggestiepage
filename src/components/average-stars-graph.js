@@ -1,3 +1,6 @@
+/* hier word de gemiddelde sterren per film berekend, weergegeven
+als een grafiek met d3 , het is een herimporteerbaar component */
+
 import { select, scaleLinear, symbol, symbolStar } from 'd3'
 import { animateAverageStarsGlow } from '../lib/animations.js'
 import { getJson } from '../lib/api-opvragingen.js'

@@ -1,3 +1,6 @@
+/* dit bestand bevat de functies die nodig zijn om de film details te bepalen,
+ */
+
 export function hasEnoughDetailData(film) {
   return Boolean(
     film.year ||

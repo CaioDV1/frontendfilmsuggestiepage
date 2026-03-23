@@ -1,3 +1,7 @@
+/* dit is het component dat de film browser weergeeft,
+hier worden de films als posters weergegeven, en kunnen gebruikers op 
+een poster klikken om de details van een film te bekijken */
+
 import { gsap } from 'gsap'
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin'
 import { animateDetailOpen } from '../lib/animations.js'

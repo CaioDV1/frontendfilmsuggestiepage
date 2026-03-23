@@ -1,3 +1,9 @@
+/* dit is het component dat de film quiz weergeeft, hier kunnen gebruikers een korte quiz doen om een
+ film aanbeveling te krijgen op basis van hun voorkeuren
+de quiz heeft 3 vragen over genre, periode en tijd, en geeft aan het einde 3 film aanbevelingen die
+ het beste bij de antwoorden passen
+het maakt gebruik van een web worker om de quiz resultaten te berekenen zonder de UI te blokkeren */
+
 import {
   animateQuizCardIn,
   animateQuizDetailIn,

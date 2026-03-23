@@ -1,3 +1,7 @@
+/* dit is het hoofd punt van de app, 
+hier worden de componenten geladen en de app geïnitialiseerd
+laad de basisdata, het verbind de delen van de frontend van elkaar */
+
 import './cssmap/base.css'
 import './cssmap/layout.css'
 import './cssmap/components/app-button.css'

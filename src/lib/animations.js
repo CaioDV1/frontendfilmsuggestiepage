@@ -1,3 +1,6 @@
+/* dit bestand bevat alle animatiefuncties die in de app worden gebruikt, zoals scroll animaties, 
+hover animaties en quiz animaties */
+
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
